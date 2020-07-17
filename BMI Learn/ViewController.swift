@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var height: UITextField!
+    
+    @IBOutlet weak var txtView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func calculate(_ sender: UIButton) {
+        txtView.text =  height.text
+    }
+    
 }
 
