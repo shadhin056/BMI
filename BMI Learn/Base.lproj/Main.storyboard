@@ -45,11 +45,27 @@
                     <connections>
                         <outlet property="height" destination="vxx-hf-cAr" id="ZV8-Vk-U4t"/>
                         <outlet property="txtView" destination="3C8-hb-sme" id="j9w-bu-aXa"/>
+                        <segue destination="h3f-ZP-9v5" kind="presentation" identifier="goToResult" id="PEB-97-5aS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="2nd-36-vY7">
+            <objects>
+                <viewController id="h3f-ZP-9v5" customClass="ResultViewController" customModule="BMI_Learn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WtD-uD-duM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gj8-mi-399"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oqd-2L-gIy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1167" y="143"/>
         </scene>
     </scenes>
 </document>

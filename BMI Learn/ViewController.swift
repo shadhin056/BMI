@@ -21,7 +21,9 @@ class ViewController: UIViewController {
 
     @IBAction func calculate(_ sender: UIButton) {
         txtView.text =  height.text
+    performSegue(withIdentifier: "goToResult", sender: self)
     }
+     
     
 }
 
